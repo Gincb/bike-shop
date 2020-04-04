@@ -1,0 +1,54 @@
+body {
+    background-color: #eeeeee;
+}
+
+button {
+    text-align:center;
+    padding:0.2em 0.5em;
+    background: white;
+    text-align: center;
+    font-variant: small-caps;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color:darkred;
+    cursor: pointer;
+    margin: 0 1rem 1rem 0;
+    border: 1px solid darkred;
+}
+
+button:hover {
+    background: darkred;
+    border: 1px solid transparent;
+    color: white;
+    transition: ease-in 0.3s;
+}
+
+.bike-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.content {
+    width: 27vw;
+    height: 50vh;
+    background-color: white;
+    padding: 1em;
+    margin: 1em;
+}
+
+img {
+    height: 220px;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+figure {
+    margin: 0;
+}
+
+.categories {
+    font-variant: small-caps;
+}
