@@ -49,6 +49,15 @@ figure {
     margin: 0;
 }
 
-.categories {
+.categories, .label {
     font-variant: small-caps;
+}
+
+.label {
+    color: white;
+    background-color: black;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
